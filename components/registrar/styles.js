@@ -1,0 +1,121 @@
+import { StyleSheet } from "react-native"
+
+const styles = StyleSheet.create({
+    container:{
+        backgroundColor:"#0E222E",
+        flex:1
+    },
+    logo:{
+        width:'100%',
+        height:'245px',
+        backgroundColor:'#0E222E',
+        display:'flex',
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    subLogo:{
+        width:"252px",
+        height:"252px",
+        marginTop:'33px'
+    },
+    input:{
+        // padding:'12px'
+        
+    },
+    name:{
+        width:"100%",
+        height:'90px',
+        padding:10,
+        backgroundColor:'',
+        display:'flex',
+        alignItems:"center",
+        marginTop:'30px'
+    },
+    subName:{
+        width:'195px',
+        height:64,
+        borderWidth:"2px",
+        color:'white',
+        borderRadius:'10px'
+
+    },
+    email:{
+        width:'100%',
+        height:'90px',
+        padding:10,
+        backgroundColor:'',
+        display:'flex',
+        alignItems:"center",
+        
+    },
+    subEmail:{
+        width:'195px',
+        height:64,
+        borderWidth:"2px",
+        color:'white',
+        borderRadius:'10px'
+    },
+    senha:{
+        width:'100%',
+        height:'90px',
+        padding:10,
+        backgroundColor:'',
+        display:'flex',
+        alignItems:"center",
+        
+    },
+    subSenha:{
+        width:'195px',
+        height:64,
+        borderWidth:"2px",
+        color:'white',
+        borderRadius:'10px',
+        borderColor:'none'
+    },
+    enviar:{
+        width:'100%',
+        height:'150px',
+        backgroundColor:'',
+        display:"flex",
+        alignItems:"center",
+        justifyContent:'center'
+    },
+    subEnviar:{
+        width:'108px',
+        height:'51px',
+        backgroundColor:"black",
+        borderRadius:"10px",
+        color:'white',
+        color:'white',
+        display:"flex",
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    possuir:{
+        width:'100%',
+        height:'70px',
+        backgroundColor:""
+    },
+    subPossuir:{
+        color:'blue',
+        display:'flex',
+        justifyContent:'center',
+        fontSize:'20px',
+        fontStyle:'italic',
+        textDecorationLine:'underline',
+        textShadowColor:'10px'
+    },
+    foto:{
+        width:'100%',
+        height:'50px',
+        backgroundColor:'',
+        display:"flex",
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    subFoto:{
+        marginLeft:'77px'
+    }
+    
+})
+export default styles

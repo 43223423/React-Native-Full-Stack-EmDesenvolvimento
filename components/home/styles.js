@@ -1,0 +1,225 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container:{
+        backgroundColor:'white',
+        flex:1
+    },
+    // Imagem:{
+    //     width:100,
+    //     height:100
+    // },
+    navbar:{
+        width:'100%',
+        height:'71px',
+        backgroundColor:'#0E222E',
+        display:'flex',
+        flexDirection:'row'
+    },
+    perfil:{
+        width:70,
+        height:64,
+        marginLeft:7,
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center',
+    
+
+    },
+    logo:{
+        width:'50px',
+        height:'50px',
+        borderRadius:'10px',
+        marginLeft:10
+    },
+
+    fotoperfil:{
+        width:'60px',
+        height:'60px',
+        borderRadius:'50px',
+        backgroundColor:'#152B38',
+        borderColor:'white',
+},
+    pesquisa:{
+        
+    },
+    pes:{
+       width:225,
+        height:50,
+        backgroundColor:'gray',
+        marginTop:8,
+        marginLeft:42,
+        borderRadius:10,
+        fontSize:'21px',
+        display:'flex',
+        alignItems:"center",
+        justifyContent:'center  '
+
+    },
+    money:{
+        width:'23pc',
+        height:'9pc',
+        borderRadius:'20px',
+        backgroundColor:'#A3C3A4',
+        borderLeftWidth:10,
+        marginLeft:'20px',
+        marginTop:'11px'
+    },
+    submoney:{
+        width:'100%',
+        height:'73px',
+        backgroundColor:'#A3C3A4',
+        borderRadius:'20px',
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        borderBottomWidth:1
+    },
+    saldo:{
+        display:'flex'
+    },
+    sdc:{
+        fontSize:'20px'
+    },
+    opcoes:{
+        width:'100%',
+        height:'9pc',
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        backgroundColor:''
+    },
+    pix:{
+        width:85,
+        height:61,
+        borderRadius:'15px',
+        backgroundColor:'#0E222E',
+        color:'white',
+        display:'flex',
+        justifyContent:"center",
+        alignItems:'center',
+        flexDirection:'column'
+    },
+    email:{
+        fontSize:'20px',
+        marginTop:10,
+        marginLeft:10,
+        fontWeight:'23px'
+    },
+    code:{
+        width:85,
+        height:61,
+        borderRadius:'15px',
+        backgroundColor:'#0E222E',
+        color:'white',
+        display:'flex',
+        justifyContent:"center",
+        alignItems:'center'
+
+    },
+    boleto:{
+        width:85,
+        height:61,
+        borderRadius:'15px',
+        backgroundColor:'#0E222E',
+        color:'white',
+        display:'flex',
+        justifyContent:"center",
+        alignItems:'center'
+
+    },
+    title:{
+        fontSize:19,
+        fontWeight:700
+    },
+    botao:{
+        width:'100%',
+        height:'59px',
+        display:'flex',
+        flexDirection:'row',
+        alignContent:'space-between',
+        justifyContent:'space-around',
+        alignItems:'flex-start',
+        marginTop:10
+    },
+    btn:{
+        width:64,
+        height:64,
+        borderRadius:'100%',
+        backgroundColor:'#0c517a',
+        
+    },
+    mo:{
+        fontSize:26,
+        marginLeft:10
+    },
+    investimento:{
+        width:'100%',
+        height:'200px',
+        backgroundColor:'none',
+        display:'flex',
+        alignItems:"center",
+        justifyContent:'center',
+        
+    },
+    subInvestimento:{
+        width:'80%',
+        height:'190px',
+        borderRadius:'15px',
+        backgroundColor:'#0E222E',
+        marginTop:'-50px',
+        borderWidth:'2px',
+        display:'flex',
+        display:'flex',
+        flexDirection:'row',
+        
+    },
+    textIn:{
+        fontSize:'24px',
+        fontWeight:'29px',
+        color:'white'
+    },
+    textPa:{
+        marginTop:'4px',
+        fontSize:'19px',
+        color:'white'
+    },
+    patri:{
+        fontSize:'20px',
+        color:'white'
+    },
+    inves:{
+        width:'125px',
+        height:'123px'
+    },
+    fotoIn:{
+        width:50,
+        height:50,
+        backgroundColor:''
+    },
+    texto:{
+        width:202,
+        height:177,
+        backgroundColor:''
+    },
+    textCli:{
+        width:56,
+        height:10,
+        color:'white',
+        fontSize:20
+    },
+    sugestao:{
+        paddingBottom:5,
+      
+    },
+    SubButton:{
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-between',
+        marginTop:'10px'
+    }
+
+})
+export default styles

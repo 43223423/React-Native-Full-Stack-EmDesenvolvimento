@@ -1,0 +1,74 @@
+import { StyleSheet } from "react-native";
+
+
+const styles = StyleSheet.create({
+    container:{
+        backgroundColor:'#12212B',
+        flex:1
+    },
+    Container_image:{
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    image:{
+        paddingTop:'20px',
+        width:'300px',
+        height:'300px'
+    },
+    Container_text:{
+        display:'flex',
+        alignItems:"center"
+    },
+    Text01:{
+        color:'green',
+        fontWeight:'bold',
+        fontSize:'30px'
+    },
+    Text02:{
+        padding:'7px',
+        fontWeight:'bold',
+        fontSize:'20px'
+    },
+    Container_voltar:{
+        display:'flex',
+        alignItems:"center",
+        justifyContent:"center",
+        padding:'30px'
+    },
+    Button_voltar:{
+        width:300,
+        height:50,
+        backgroundColor:'#12212B',
+        borderRadius:'20px',
+        borderWidth:'2px',
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center',
+        fontSize:'20px',
+        fontWeight:'bold',
+        color:'white'
+    },
+    Container_again:{
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    Button_again:{
+        width:350,
+        height:50,
+        borderRadius:'20px',
+        backgroundColor:'',
+        borderWidth:'2px',
+        fontSize:'30px',
+        fontWeight:'bold',
+        display:'flex',
+        alignItems:"center",
+        justifyContent:'center',
+        color:'white'
+    },
+    Container_buttons:{
+        padding:'20px'
+    }
+})
+export default styles
